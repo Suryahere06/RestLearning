@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.iPivot.RestAPI</groupId>
-  <artifactId>RestAPITest</artifactId>
+  <groupId>com.iPivot.RestLearning</groupId>
+  <artifactId>Test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>RestAPITest</name>
@@ -93,6 +93,13 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <configuration>
+					<suiteXmlFiles>
+						<!-- TestNG suite XML files -->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+          
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
