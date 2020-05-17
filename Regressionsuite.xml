@@ -1,0 +1,18 @@
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite" verbose="1" >
+
+
+<test name="Login Feauture testing" >
+
+<classes>
+
+<class name="com.iPivot.RestLearning.RestLearning.RestAPICode" />
+ 
+ 
+</classes> 
+
+</test>
+
+</suite>
+

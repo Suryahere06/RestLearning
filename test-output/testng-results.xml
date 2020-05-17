@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="6028" started-at="2020-05-16T22:41:50 EDT" finished-at="2020-05-16T22:41:56 EDT">
+    <groups>
+      <group name="weather">
+        <method signature="RestAPICode.getWeather(java.lang.String)[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="getWeather" class="com.iPivot.RestLearning.RestLearning.RestAPICode"/>
+      </group> <!-- weather -->
+      <group name="login">
+        <method signature="RestAPICode.RegistrationSuccessful()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="RegistrationSuccessful" class="com.iPivot.RestLearning.RestLearning.RestAPICode"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Login Feauture testing" duration-ms="6028" started-at="2020-05-16T22:41:50 EDT" finished-at="2020-05-16T22:41:56 EDT">
+      <class name="com.iPivot.RestLearning.RestLearning.RestAPICode">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="startTest" is-config="true" duration-ms="341" started-at="2020-05-16T22:41:50 EDT" finished-at="2020-05-16T22:41:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="beforeeachtestcase2()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="beforeeachtestcase2" is-config="true" duration-ms="4" started-at="2020-05-16T22:41:51 EDT" finished-at="2020-05-16T22:41:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachtestcase2 -->
+        <test-method status="PASS" signature="RegistrationSuccessful()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="RegistrationSuccessful" duration-ms="2809" started-at="2020-05-16T22:41:51 EDT" finished-at="2020-05-16T22:41:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationSuccessful -->
+        <test-method status="PASS" signature="aftereachtest2()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="aftereachtest2" is-config="true" duration-ms="8" started-at="2020-05-16T22:41:53 EDT" finished-at="2020-05-16T22:41:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachtest2 -->
+        <test-method status="PASS" signature="beforeeachtestcase1()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="beforeeachtestcase1" is-config="true" duration-ms="0" started-at="2020-05-16T22:41:53 EDT" finished-at="2020-05-16T22:41:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeachtestcase1 -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="getWeather" duration-ms="1064" started-at="2020-05-16T22:41:53 EDT" data-provider="locations" finished-at="2020-05-16T22:41:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="getWeather" duration-ms="362" started-at="2020-05-16T22:41:55 EDT" data-provider="locations" finished-at="2020-05-16T22:41:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newark]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="getWeather" duration-ms="360" started-at="2020-05-16T22:41:55 EDT" data-provider="locations" finished-at="2020-05-16T22:41:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coimbatore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="getWeather" duration-ms="331" started-at="2020-05-16T22:41:55 EDT" data-provider="locations" finished-at="2020-05-16T22:41:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[switzerland]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="getWeather(java.lang.String)[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="getWeather" duration-ms="304" started-at="2020-05-16T22:41:56 EDT" data-provider="locations" finished-at="2020-05-16T22:41:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[singapore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+        <test-method status="PASS" signature="aftereachtest1()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="aftereachtest1" is-config="true" duration-ms="1" started-at="2020-05-16T22:41:56 EDT" finished-at="2020-05-16T22:41:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereachtest1 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.iPivot.RestLearning.RestLearning.RestAPICode@57855c9a]" name="endTest" is-config="true" duration-ms="341" started-at="2020-05-16T22:41:56 EDT" finished-at="2020-05-16T22:41:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.iPivot.RestLearning.RestLearning.RestAPICode -->
+    </test> <!-- Login Feauture testing -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

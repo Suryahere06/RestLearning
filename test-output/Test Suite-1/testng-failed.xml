@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite-1]">
+  <test thread-count="5" name="Test Case-1(failed)">
+    <classes>
+      <class name="com.iPivot.RestLearning.RestLearning.RestAPICode">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="RegistrationSuccessful"/>
+          <include name="getWeather"/>
+        </methods>
+      </class> <!-- com.iPivot.RestLearning.RestLearning.RestAPICode -->
+    </classes>
+  </test> <!-- Test Case-1(failed) -->
+</suite> <!-- Failed suite [Test Suite-1] -->
