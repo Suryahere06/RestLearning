@@ -3,7 +3,7 @@
 <suite name="Regression Suite" verbose="1" >
 
 
-<test name="Login Feauture testing" >
+<test name="Regression flow testing" >
 
 <classes>
 
